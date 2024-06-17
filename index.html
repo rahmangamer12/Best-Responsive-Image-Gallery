@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Welcome To My Responsive Image Gallery</h1>
+    </div>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/img1.jpg" alt="" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+   <div class="img-gallery">
+    <img src="images/img1.jpg" alt="" onclick="openFullImg(this.src)">
+    <img src="images/img2.jpg" alt="" onclick="openFullImg(this.src)">
+    <img class="img-2" src="images/img3.jpg" alt="" onclick="openFullImg(this.src)">
+    <img src="images/img4.jpg" alt="" onclick="openFullImg(this.src)">
+    <img src="images/unplash1.avif" alt="" onclick="openFullImg(this.src)">
+    <img src="images/unplash2.avif" alt="" onclick="openFullImg(this.src)">
+    <img src="images/unplash3.avif" alt="" onclick="openFullImg(this.src)">
+    <img src="images/unplash4.avif" alt="" onclick="openFullImg(this.src)">
+    <img class="last-img" src="images/unplash5.avif" alt="" onclick="openFullImg(this.src)">
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
