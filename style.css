@@ -20,6 +20,11 @@ body{
     color: #ecf4fb;
     padding-top: 100px;
 }
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
 .img-gallery{
     width: 80%;
     margin: 100px auto 50px;
